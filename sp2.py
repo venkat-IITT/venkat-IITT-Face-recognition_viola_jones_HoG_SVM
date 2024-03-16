@@ -24,7 +24,7 @@ cp_img = gray_image[y:y+h, x:x+w]
 cv2.imshow('Detected Faces', cp_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+# comment
 face_regions = []
 for (x, y, w, h) in faces:
    face_regions.append(gray_image[y:y+h, x:x+w])
