@@ -1,0 +1,5 @@
+git status    To check the status of files
+git add .     To add and track all the files
+git commit -m "Some comment"    To finalyze the changes in file with some comments(whatever changes you have made)
+git push -u origin main         To send the modified and newly added files to github repository
+git diff                        To know what the changes have made in any file
